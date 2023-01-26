@@ -1,0 +1,59 @@
+.mainItemDiv {
+  margin: 3%;
+  cursor: pointer;
+}
+
+.itemCard {
+  width: 15vw;
+  min-width: 150px;
+  box-sizing: border-box;
+}
+
+.mainItemDiv:hover {
+  box-shadow: 0px 0px 15px 5px gray;
+}
+
+.itemCard > img {
+  width: 100%;
+}
+
+.itemCard > h4 {
+  margin: 4px;
+}
+
+.itemCard > p {
+  font-style: italic;
+  margin: 4px;
+  font-size: 80%;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+.rate > span {
+  font-size: 80%;
+  font-weight: 700;
+  margin: 4px;
+}
+
+.rate > strike {
+  margin: 3px 3px;
+  font-size: 70%;
+}
+
+.rate > span:last-child {
+  color: red;
+}
+
+.removeFromCart {
+  margin: 5%;
+  padding: 10px 20px 10px 20px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

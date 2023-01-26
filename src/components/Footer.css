@@ -1,0 +1,14 @@
+.footer {
+   width: 100vw;
+}
+.footer > div {
+  font-size: larger;
+  height: 80px;
+  line-height: 80px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer > div > span {
+  color: blueviolet;
+}

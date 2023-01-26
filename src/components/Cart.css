@@ -1,0 +1,28 @@
+.cart {
+  margin-top: 50px;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  min-height: 80vh;
+}
+
+.cartList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: auto;
+}
+
+.cartTotal > h3 > span {
+  font-weight: 200;
+}
+
+.buyItems {
+  margin: 5%;
+  padding: 10px 20px 10px 20px;
+  background-color: tomato;
+  color: white;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+}

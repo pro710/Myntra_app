@@ -1,0 +1,7 @@
+.products {
+  left: 160px;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1px solid gray;
+}
